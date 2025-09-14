@@ -1,0 +1,5 @@
+You need to install and import 3 libraries to be able to use the program
+
+1. csv library
+2. FPDF library
+3. os library

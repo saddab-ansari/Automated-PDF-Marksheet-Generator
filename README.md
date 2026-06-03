@@ -1,21 +1,29 @@
-# Excel to Printable Marksheets
-#### Video Demo: < https://youtu.be/e0uc3vBZjHA?si=YLMfHoJ04YJrXlMA >
+# 📄 Automated PDF Marksheet Generator
 
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+![Library](https://img.shields.io/badge/Library-FPDF-green.svg)
+![Design](https://img.shields.io/badge/Design-Canva-blueviolet.svg)
 
-#### About my project:
+## 🎥 Video Demonstration
+[![Marksheet Generator Demo](https://img.youtube.com/vi/e0uc3vBZjHA/maxresdefault.jpg)](https://youtu.be/e0uc3vBZjHA)  
+*(Click the image above to watch the full demonstration on YouTube!)*
 
-I built a program that converts an Excel file of students with their test scores into printable marksheets in PDF form. In this demo, I first convert the Excel file into a CSV, then run my Python script to generate the PDFs automatically. The template used was designed by me in Canva, and its resolution and precise mm measurements played a crucial role in making it work properly. I have used FPDF library for this purpose. FPDF library was explained in lecture, used in Shirtificate problem from Week 08 and therefore, was very clear to me. Hence, i used that library, even if it meant to face another problem, i.e resolution in mm of the given Image.
+## 📝 Project Overview
+This Python-based automation tool converts student test scores from a spreadsheet into beautifully formatted, ready-to-print PDF marksheets. 
 
-#### Rules Or Mandatory Conditions for perfect working of CODE :
+Originally developed as my CS50P Final Project, this script iterates through a CSV database, overlays the student data onto a custom-designed Canva template, and exports individual PDF files. The project heavily relies on the **FPDF library** (introduced in CS50P Week 8) to handle precise coordinate mapping and PDF generation.
 
-1. The Code is written using co-ordinates (pixels) of the marksheet.temp.png , Hence, changing the image entirely, resizing the Image or trying to Make its size smaller will crack the code.
+## ⚠️ Crucial Requirements & Constraints
+**To ensure the code runs perfectly and the layout does not break, you must adhere to the following rules:**
 
-2. resolutions of the image :
-	in pixel - 1654 x 2339
-	in mm - 210 x 297
+* 📁 **File Naming:** The input data file **must** be named exactly `Test Scores.csv` (case-sensitive). 
+* 🔄 **File Format:** The program reads `.csv` files, not `.xlsx`. You must manually export/convert your Excel spreadsheet to a CSV format before running the script.
+* 🖼️ **Template Dimensions:** The code maps text to specific coordinate pixels based on `marksheet.temp.png`. Changing, resizing, or compressing this image will completely break the layout.
+   * **Required Pixel Resolution:** `1654 x 2339 px`
+   * **Required FPDF (mm) Resolution:** `210 x 297 mm` (Standard A4 Size)
+   * *Note: FPDF only supports image rendering in millimeter dimensions. The template was strictly resized using an external mm-resizer tool to perfectly match the 210x297mm constraint.*
 
-3. why the resolution in Image and mm is different ? The library i used in creation of this project was FPDF and it only supports images with 'mm resolution' of 210 x 297 or lower. To make it happen, i used a website 	called "Resize  image in mm".
+# 👤 Author
 
-4. The name of the Excel/Csv file used should be "Test Scores" (case sensitive).
-
-5. The program does not automatically convert excel file to csv so please make sure to check if you have done it yourself.
+Saddab Sabir Ansari.
+💼 [LinkedIn](www.linkedin.com/in/saddab-ansari) | 💼 Email - saddabansari254@gmail.com

@@ -11,7 +11,7 @@
 ## 📝 Project Overview
 This Python-based automation tool converts student test scores from a spreadsheet into beautifully formatted, ready-to-print PDF marksheets. 
 
-Originally developed as my CS50P Final Project, this script iterates through a CSV database, overlays the student data onto a custom-designed Canva template, and exports individual PDF files. The project heavily relies on the **FPDF library** (introduced in CS50P Week 8) to handle precise coordinate mapping and PDF generation.
+Originally developed as my CS50P Final Project (2025), this script iterates through a CSV database, overlays the student data onto a custom-designed Canva template, and exports individual PDF files. The project heavily relies on the **FPDF library** (introduced in CS50P Week 8) to handle precise coordinate mapping and PDF generation.
 
 ## ⚠️ Crucial Requirements & Constraints
 **To ensure the code runs perfectly and the layout does not break, you must adhere to the following rules:**

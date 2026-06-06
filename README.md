@@ -25,5 +25,6 @@ Originally developed as my CS50P Final Project, this script iterates through a C
 
 # 👤 Author
 
-Saddab Sabir Ansari.
+**Saddab Sabir Ansari.**
+
 💼 [LinkedIn](www.linkedin.com/in/saddab-ansari) | 💼 Email - saddabansari254@gmail.com

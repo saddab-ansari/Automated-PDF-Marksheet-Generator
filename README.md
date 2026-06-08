@@ -25,6 +25,6 @@ Originally developed as my CS50P Final Project (2025), this script iterates thro
 
 # 👤 Author
 
-**Saddab Sabir Ansari.**
+**Saddab Sabir Ansari_**
 
 💼 [LinkedIn](www.linkedin.com/in/saddab-ansari) | 💼 Email - saddabansari254@gmail.com
